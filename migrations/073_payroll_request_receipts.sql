@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS payroll_requests (
+  id SERIAL PRIMARY KEY,
+  request_key TEXT NOT NULL UNIQUE,
+  fingerprint TEXT NOT NULL,
+  source_table TEXT NOT NULL,
+  source_id INTEGER NOT NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
+);

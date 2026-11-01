@@ -1,0 +1,1468 @@
+{
+  "_source": "Chulo Cottage's own website menu (index.html, 'The Chulo menu'). Prices in NPR.",
+  "_review": [
+    "Vegetarian flags are inferred from dish names — confirm before production.",
+    "Mo:mo is priced per filling (Chicken / Mutton / Paneer) as variants; the first is the default.",
+    "Spirits are sold by 180 ml and 750 ml as variants.",
+    "'Hot lemon with honey or ginger' (Rs 140 / 160) is one item with Honey / Ginger variants.",
+    "Photos come from public/images/dishes where a matching dish photo exists; replace with the cottage's own photos when available.",
+    "Alcohol and hookah are served to guests aged 18 and above."
+  ],
+  "categories": [
+    {
+      "name": "Mo:mo",
+      "order": 1,
+      "food_group": "food",
+      "items": [
+        {
+          "ref": "mo-mo-steam-momo",
+          "name": "Steam momo",
+          "price": 150,
+          "veg": false,
+          "variants": [
+            {
+              "name": "Chicken",
+              "price": 150
+            },
+            {
+              "name": "Mutton",
+              "price": 200
+            },
+            {
+              "name": "Paneer",
+              "price": 160
+            }
+          ],
+          "image": "/images/dishes/Chicken Steam Momo.jpg"
+        },
+        {
+          "ref": "mo-mo-fried-momo",
+          "name": "Fried momo",
+          "price": 160,
+          "veg": false,
+          "variants": [
+            {
+              "name": "Chicken",
+              "price": 160
+            },
+            {
+              "name": "Mutton",
+              "price": 220
+            },
+            {
+              "name": "Paneer",
+              "price": 180
+            }
+          ],
+          "image": "/images/dishes/Chcken Fried Momo.jpg"
+        },
+        {
+          "ref": "mo-mo-chilli-momo",
+          "name": "Chilli momo",
+          "price": 250,
+          "veg": false,
+          "variants": [
+            {
+              "name": "Chicken",
+              "price": 250
+            },
+            {
+              "name": "Mutton",
+              "price": 280
+            },
+            {
+              "name": "Paneer",
+              "price": 200
+            }
+          ],
+          "image": "/images/dishes/Chicken Chilly Momo.jpg"
+        },
+        {
+          "ref": "mo-mo-c-momo",
+          "name": "C. momo",
+          "price": 230,
+          "veg": false,
+          "variants": [
+            {
+              "name": "Chicken",
+              "price": 230
+            },
+            {
+              "name": "Mutton",
+              "price": 270
+            },
+            {
+              "name": "Paneer",
+              "price": 190
+            }
+          ],
+          "image": "/images/dishes/Chicken C Momo.jpg"
+        },
+        {
+          "ref": "mo-mo-kothey-momo",
+          "name": "Kothey momo",
+          "price": 170,
+          "veg": false,
+          "variants": [
+            {
+              "name": "Chicken",
+              "price": 170
+            },
+            {
+              "name": "Mutton",
+              "price": 220
+            },
+            {
+              "name": "Paneer",
+              "price": 180
+            }
+          ],
+          "image": "/images/dishes/fry-momo.jpg"
+        },
+        {
+          "ref": "mo-mo-jhol-momo",
+          "name": "Jhol momo",
+          "price": 170,
+          "veg": false,
+          "variants": [
+            {
+              "name": "Chicken",
+              "price": 170
+            },
+            {
+              "name": "Mutton",
+              "price": 220
+            },
+            {
+              "name": "Paneer",
+              "price": 180
+            }
+          ],
+          "image": "/images/dishes/Chicken Jhol Momo.jpg"
+        },
+        {
+          "ref": "mo-mo-hot-jhol-momo",
+          "name": "Hot jhol momo",
+          "price": 190,
+          "veg": false,
+          "variants": [
+            {
+              "name": "Chicken",
+              "price": 190
+            },
+            {
+              "name": "Mutton",
+              "price": 240
+            },
+            {
+              "name": "Paneer",
+              "price": 190
+            }
+          ],
+          "image": "/images/dishes/Chicken Jhol Momo.jpg"
+        },
+        {
+          "ref": "mo-mo-sadeko-momo",
+          "name": "Sadeko momo",
+          "price": 200,
+          "veg": false,
+          "variants": [
+            {
+              "name": "Chicken",
+              "price": 200
+            },
+            {
+              "name": "Mutton",
+              "price": 240
+            },
+            {
+              "name": "Paneer",
+              "price": 200
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "House special",
+      "order": 2,
+      "food_group": "food",
+      "items": [
+        {
+          "ref": "house-spec-afghani-momo",
+          "name": "Afghani momo",
+          "price": 250,
+          "veg": false,
+          "image": "/images/dishes/Chicken C Momo.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Chicken",
+      "order": 3,
+      "food_group": "food",
+      "items": [
+        {
+          "ref": "chicken-chicken-sekuwa",
+          "name": "Chicken sekuwa",
+          "price": 350,
+          "veg": false,
+          "image": "/images/dishes/Chicken Sekuwa.jpg"
+        },
+        {
+          "ref": "chicken-chicken-choila",
+          "name": "Chicken choila",
+          "price": 300,
+          "veg": false,
+          "image": "/images/dishes/Chicken Chhoila.jpg"
+        },
+        {
+          "ref": "chicken-chicken-lollipop",
+          "name": "Chicken lollipop",
+          "price": 250,
+          "veg": false,
+          "image": "/images/dishes/Chicken Loly Pop.avif"
+        },
+        {
+          "ref": "chicken-chicken-chilli",
+          "name": "Chicken chilli",
+          "price": 285,
+          "veg": false
+        },
+        {
+          "ref": "chicken-chicken-boil",
+          "name": "Chicken boil",
+          "price": 300,
+          "veg": false
+        },
+        {
+          "ref": "chicken-chicken-boil-sadeko",
+          "name": "Chicken boil sadeko",
+          "price": 320,
+          "veg": false
+        },
+        {
+          "ref": "chicken-chicken-sadeko",
+          "name": "Chicken sadeko",
+          "price": 280,
+          "veg": false
+        },
+        {
+          "ref": "chicken-chicken-nuggets",
+          "name": "Chicken nuggets",
+          "price": 300,
+          "veg": false
+        },
+        {
+          "ref": "chicken-chicken-65",
+          "name": "Chicken 65",
+          "price": 320,
+          "veg": false
+        },
+        {
+          "ref": "chicken-chicken-pakoda",
+          "name": "Chicken pakoda",
+          "price": 300,
+          "veg": false
+        },
+        {
+          "ref": "chicken-chicken-chatpate",
+          "name": "Chicken chatpate",
+          "price": 180,
+          "veg": false
+        },
+        {
+          "ref": "chicken-crispy-chicken",
+          "name": "Crispy chicken",
+          "price": 300,
+          "veg": false
+        },
+        {
+          "ref": "chicken-hot-wings",
+          "name": "Hot wings",
+          "price": 320,
+          "veg": false,
+          "image": "/images/dishes/Chicken Wings.jpg"
+        },
+        {
+          "ref": "chicken-kurkure-chicken",
+          "name": "Kurkure chicken",
+          "price": 350,
+          "veg": false
+        },
+        {
+          "ref": "chicken-kfc-style-chicken",
+          "name": "KFC-style chicken",
+          "price": 350,
+          "veg": false
+        },
+        {
+          "ref": "chicken-chicken-sausage",
+          "name": "Chicken sausage",
+          "price": 180,
+          "veg": false
+        },
+        {
+          "ref": "chicken-sausage-chilli",
+          "name": "Sausage chilli",
+          "price": 450,
+          "veg": false
+        }
+      ]
+    },
+    {
+      "name": "Mutton",
+      "order": 4,
+      "food_group": "food",
+      "items": [
+        {
+          "ref": "mutton-mutton-sekuwa",
+          "name": "Mutton sekuwa",
+          "price": 390,
+          "veg": false,
+          "image": "/images/dishes/Mutton Sekuwa.jpg"
+        },
+        {
+          "ref": "mutton-mutton-choila",
+          "name": "Mutton choila",
+          "price": 380,
+          "veg": false,
+          "image": "/images/dishes/Mutton Chhoila.jpg"
+        },
+        {
+          "ref": "mutton-mutton-kan-gidi-jibro",
+          "name": "Mutton kan-gidi-jibro",
+          "price": 350,
+          "veg": false
+        },
+        {
+          "ref": "mutton-bhutan",
+          "name": "Bhutan",
+          "price": 250,
+          "veg": false,
+          "image": "/images/dishes/mutton bhutan.jpg"
+        },
+        {
+          "ref": "mutton-mutton-tass",
+          "name": "Mutton tass",
+          "price": 390,
+          "veg": false,
+          "image": "/images/dishes/Mutton Tass Set.jpg"
+        },
+        {
+          "ref": "mutton-mutton-hekulla",
+          "name": "Mutton hekulla",
+          "price": 490,
+          "veg": false
+        }
+      ]
+    },
+    {
+      "name": "Veg snacks",
+      "order": 5,
+      "food_group": "food",
+      "items": [
+        {
+          "ref": "veg-snacks-french-fries",
+          "name": "French fries",
+          "price": 120,
+          "veg": true,
+          "image": "/images/dishes/French Fries.jpg"
+        },
+        {
+          "ref": "veg-snacks-peanut-sadeko",
+          "name": "Peanut sadeko",
+          "price": 140,
+          "veg": true
+        },
+        {
+          "ref": "veg-snacks-corn-salt-and-pepper",
+          "name": "Corn salt and pepper",
+          "price": 200,
+          "veg": true,
+          "image": "/images/dishes/Corn Salt N Pepper.jpg"
+        },
+        {
+          "ref": "veg-snacks-bhatmas-sadeko",
+          "name": "Bhatmas sadeko",
+          "price": 120,
+          "veg": true
+        },
+        {
+          "ref": "veg-snacks-hot-potato-chilli",
+          "name": "Hot potato chilli",
+          "price": 140,
+          "veg": true
+        },
+        {
+          "ref": "veg-snacks-paneer-chilli",
+          "name": "Paneer chilli",
+          "price": 290,
+          "veg": true
+        },
+        {
+          "ref": "veg-snacks-aloo-chop",
+          "name": "Aloo chop",
+          "price": 90,
+          "veg": true
+        },
+        {
+          "ref": "veg-snacks-aloo-paratha",
+          "name": "Aloo paratha",
+          "price": 120,
+          "veg": true,
+          "image": "/images/dishes/Aloo Paratha.jpg"
+        },
+        {
+          "ref": "veg-snacks-mustang-aloo",
+          "name": "Mustang aloo",
+          "price": 180,
+          "veg": true
+        },
+        {
+          "ref": "veg-snacks-paneer-pakoda",
+          "name": "Paneer pakoda",
+          "price": 300,
+          "veg": true,
+          "image": "/images/dishes/Paneer Pakoda.jpg"
+        },
+        {
+          "ref": "veg-snacks-chatpate",
+          "name": "Chatpate",
+          "price": 100,
+          "veg": true
+        },
+        {
+          "ref": "veg-snacks-sadeko-chauchau",
+          "name": "Sadeko chauchau",
+          "price": 150,
+          "veg": true
+        },
+        {
+          "ref": "veg-snacks-onion-rings",
+          "name": "Onion rings",
+          "price": 150,
+          "veg": true
+        },
+        {
+          "ref": "veg-snacks-veg-boil",
+          "name": "Veg boil",
+          "price": 200,
+          "veg": true,
+          "image": "/images/dishes/veg boil.jpg"
+        },
+        {
+          "ref": "veg-snacks-lasun-fry",
+          "name": "Lasun fry",
+          "price": 150,
+          "veg": true
+        },
+        {
+          "ref": "veg-snacks-pakoda",
+          "name": "Pakoda",
+          "price": 80,
+          "veg": true
+        },
+        {
+          "ref": "veg-snacks-laping-dry",
+          "name": "Laping, dry",
+          "price": 120,
+          "veg": true
+        },
+        {
+          "ref": "veg-snacks-laping-jhol",
+          "name": "Laping, jhol",
+          "price": 150,
+          "veg": true
+        },
+        {
+          "ref": "veg-snacks-safale",
+          "name": "Safale",
+          "price": 150,
+          "veg": true
+        }
+      ]
+    },
+    {
+      "name": "Salad",
+      "order": 6,
+      "food_group": "food",
+      "items": [
+        {
+          "ref": "salad-nepali-salad",
+          "name": "Nepali salad",
+          "price": 150,
+          "veg": true
+        },
+        {
+          "ref": "salad-fruit-salad",
+          "name": "Fruit salad",
+          "price": 200,
+          "veg": true
+        },
+        {
+          "ref": "salad-diamond-salad",
+          "name": "Diamond salad",
+          "price": 250,
+          "veg": true
+        }
+      ]
+    },
+    {
+      "name": "Rice and biryani",
+      "order": 7,
+      "food_group": "food",
+      "items": [
+        {
+          "ref": "rice-and-b-veg-fried-rice",
+          "name": "Veg fried rice",
+          "price": 170,
+          "veg": true,
+          "image": "/images/dishes/Veg. Fried Rice.jpg"
+        },
+        {
+          "ref": "rice-and-b-egg-fried-rice",
+          "name": "Egg fried rice",
+          "price": 200,
+          "veg": false,
+          "image": "/images/dishes/Egg Fried Rice.jpg"
+        },
+        {
+          "ref": "rice-and-b-chicken-fried-rice",
+          "name": "Chicken fried rice",
+          "price": 250,
+          "veg": false,
+          "image": "/images/dishes/Chicken Fried Rice.jpg"
+        },
+        {
+          "ref": "rice-and-b-paneer-fried-rice",
+          "name": "Paneer fried rice",
+          "price": 300,
+          "veg": true
+        },
+        {
+          "ref": "rice-and-b-mix-fried-rice",
+          "name": "Mix fried rice",
+          "price": 300,
+          "veg": false,
+          "image": "/images/dishes/Mix Fried Rice.jpg"
+        },
+        {
+          "ref": "rice-and-b-veg-biryani",
+          "name": "Veg biryani",
+          "price": 270,
+          "veg": true
+        },
+        {
+          "ref": "rice-and-b-egg-biryani",
+          "name": "Egg biryani",
+          "price": 290,
+          "veg": false
+        },
+        {
+          "ref": "rice-and-b-chicken-biryani",
+          "name": "Chicken biryani",
+          "price": 350,
+          "veg": false
+        },
+        {
+          "ref": "rice-and-b-paneer-biryani",
+          "name": "Paneer biryani",
+          "price": 490,
+          "veg": true
+        },
+        {
+          "ref": "rice-and-b-mutton-biryani",
+          "name": "Mutton biryani",
+          "price": 500,
+          "veg": false
+        }
+      ]
+    },
+    {
+      "name": "Curry and roti",
+      "order": 8,
+      "food_group": "food",
+      "items": [
+        {
+          "ref": "curry-and--veg-curry",
+          "name": "Veg curry",
+          "price": 230,
+          "veg": true
+        },
+        {
+          "ref": "curry-and--egg-curry",
+          "name": "Egg curry",
+          "price": 260,
+          "veg": false
+        },
+        {
+          "ref": "curry-and--chicken-curry",
+          "name": "Chicken curry",
+          "price": 300,
+          "veg": false
+        },
+        {
+          "ref": "curry-and--paneer-curry",
+          "name": "Paneer curry",
+          "price": 350,
+          "veg": true
+        },
+        {
+          "ref": "curry-and--mutton-curry",
+          "name": "Mutton curry",
+          "price": 350,
+          "veg": false
+        },
+        {
+          "ref": "curry-and--plain-roti",
+          "name": "Plain roti",
+          "price": 20,
+          "veg": true
+        },
+        {
+          "ref": "curry-and--butter-roti",
+          "name": "Butter roti",
+          "price": 30,
+          "veg": true
+        }
+      ]
+    },
+    {
+      "name": "Noodles",
+      "order": 9,
+      "food_group": "food",
+      "items": [
+        {
+          "ref": "noodles-veg-chowmein",
+          "name": "Veg chowmein",
+          "price": 110,
+          "veg": true
+        },
+        {
+          "ref": "noodles-egg-chowmein",
+          "name": "Egg chowmein",
+          "price": 130,
+          "veg": false,
+          "image": "/images/dishes/Egg Chowmin.jpg"
+        },
+        {
+          "ref": "noodles-chicken-chowmein",
+          "name": "Chicken chowmein",
+          "price": 150,
+          "veg": false,
+          "image": "/images/dishes/Chicken Chowmin.jpg"
+        },
+        {
+          "ref": "noodles-mix-chowmein",
+          "name": "Mix chowmein",
+          "price": 250,
+          "veg": false
+        },
+        {
+          "ref": "noodles-keema-noodles",
+          "name": "Keema noodles",
+          "price": 250,
+          "veg": false
+        }
+      ]
+    },
+    {
+      "name": "Soup and thukpa",
+      "order": 10,
+      "food_group": "food",
+      "items": [
+        {
+          "ref": "soup-and-t-veg-manchow-soup",
+          "name": "Veg manchow soup",
+          "price": 150,
+          "veg": true
+        },
+        {
+          "ref": "soup-and-t-hot-and-sour-soup",
+          "name": "Hot and sour soup",
+          "price": 180,
+          "veg": true
+        },
+        {
+          "ref": "soup-and-t-chicken-manchow-soup",
+          "name": "Chicken manchow soup",
+          "price": 180,
+          "veg": false
+        },
+        {
+          "ref": "soup-and-t-chicken-hot-and-sour-soup",
+          "name": "Chicken hot and sour soup",
+          "price": 230,
+          "veg": false,
+          "image": "/images/dishes/Chicken Hot N Sour.jpg"
+        },
+        {
+          "ref": "soup-and-t-veg-thukpa",
+          "name": "Veg thukpa",
+          "price": 170,
+          "veg": true
+        },
+        {
+          "ref": "soup-and-t-chicken-thukpa",
+          "name": "Chicken thukpa",
+          "price": 200,
+          "veg": false,
+          "image": "/images/dishes/Chicken Thupka.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Burgers and sandwiches",
+      "order": 11,
+      "food_group": "food",
+      "items": [
+        {
+          "ref": "burgers-an-veg-burger",
+          "name": "Veg burger",
+          "price": 150,
+          "veg": true
+        },
+        {
+          "ref": "burgers-an-chicken-burger",
+          "name": "Chicken burger",
+          "price": 210,
+          "veg": false,
+          "image": "/images/dishes/Chicken Burger.jpg"
+        },
+        {
+          "ref": "burgers-an-plain-sandwich",
+          "name": "Plain sandwich",
+          "price": 120,
+          "veg": true
+        },
+        {
+          "ref": "burgers-an-bread-omelette",
+          "name": "Bread omelette",
+          "price": 120,
+          "veg": false,
+          "image": "/images/dishes/Bread Omelette.jpg"
+        },
+        {
+          "ref": "burgers-an-boiled-egg",
+          "name": "Boiled egg",
+          "price": 100,
+          "veg": false
+        },
+        {
+          "ref": "burgers-an-plain-omelette",
+          "name": "Plain omelette",
+          "price": 100,
+          "veg": false
+        }
+      ]
+    },
+    {
+      "name": "Kathi rolls",
+      "order": 12,
+      "food_group": "food",
+      "items": [
+        {
+          "ref": "kathi-roll-veg-kathi-roll",
+          "name": "Veg kathi roll",
+          "price": 170,
+          "veg": true
+        },
+        {
+          "ref": "kathi-roll-egg-kathi-roll",
+          "name": "Egg kathi roll",
+          "price": 200,
+          "veg": false
+        },
+        {
+          "ref": "kathi-roll-chicken-kathi-roll",
+          "name": "Chicken kathi roll",
+          "price": 250,
+          "veg": false
+        },
+        {
+          "ref": "kathi-roll-paneer-kathi-roll",
+          "name": "Paneer kathi roll",
+          "price": 300,
+          "veg": true
+        },
+        {
+          "ref": "kathi-roll-chicken-spring-roll",
+          "name": "Chicken spring roll",
+          "price": 220,
+          "veg": false
+        }
+      ]
+    },
+    {
+      "name": "Coffee",
+      "order": 13,
+      "food_group": "beverage",
+      "items": [
+        {
+          "ref": "coffee-espresso",
+          "name": "Espresso",
+          "price": 80,
+          "veg": true,
+          "image": "/images/dishes/espresso.jpg"
+        },
+        {
+          "ref": "coffee-americano-single",
+          "name": "Americano, single",
+          "price": 130,
+          "veg": true,
+          "image": "/images/dishes/Americano.webp"
+        },
+        {
+          "ref": "coffee-americano-double",
+          "name": "Americano, double",
+          "price": 150,
+          "veg": true,
+          "image": "/images/dishes/Americano Double Shot.jpg"
+        },
+        {
+          "ref": "coffee-espresso-con-panna",
+          "name": "Espresso con panna",
+          "price": 150,
+          "veg": true
+        },
+        {
+          "ref": "coffee-doppio",
+          "name": "Doppio",
+          "price": 150,
+          "veg": true,
+          "image": "/images/dishes/doppio.webp"
+        },
+        {
+          "ref": "coffee-caff-lungo",
+          "name": "Caffè lungo",
+          "price": 155,
+          "veg": true
+        },
+        {
+          "ref": "coffee-cappuccino",
+          "name": "Cappuccino",
+          "price": 170,
+          "veg": true,
+          "image": "/images/dishes/Cappuccino.jpg"
+        },
+        {
+          "ref": "coffee-doppio-with-honey",
+          "name": "Doppio with honey",
+          "price": 170,
+          "veg": true
+        },
+        {
+          "ref": "coffee-caff-latte",
+          "name": "Caffè latte",
+          "price": 200,
+          "veg": true,
+          "image": "/images/dishes/Café latte.jpg"
+        },
+        {
+          "ref": "coffee-flavoured-latte",
+          "name": "Flavoured latte",
+          "description": "Honey, vanilla or caramel",
+          "price": 200,
+          "veg": true
+        },
+        {
+          "ref": "coffee-affogato",
+          "name": "Affogato",
+          "price": 220,
+          "veg": true
+        },
+        {
+          "ref": "coffee-mojito",
+          "name": "Mojito",
+          "price": 260,
+          "veg": true,
+          "image": "/images/dishes/Mojito.jpg"
+        }
+      ]
+    },
+    {
+      "name": "Tea",
+      "order": 14,
+      "food_group": "beverage",
+      "items": [
+        {
+          "ref": "tea-black-tea",
+          "name": "Black tea",
+          "price": 25,
+          "veg": true,
+          "image": "/images/dishes/Black Tea.png"
+        },
+        {
+          "ref": "tea-lemon-tea",
+          "name": "Lemon tea",
+          "price": 30,
+          "veg": true
+        },
+        {
+          "ref": "tea-chulo-milk-tea",
+          "name": "Chulo milk tea",
+          "price": 40,
+          "veg": true,
+          "image": "/images/dishes/Milk Masala Tea.webp"
+        },
+        {
+          "ref": "tea-hot-lemon",
+          "name": "Hot lemon",
+          "price": 50,
+          "veg": true,
+          "image": "/images/dishes/Hot Lemon.jpg"
+        },
+        {
+          "ref": "tea-black-coffee",
+          "name": "Black coffee",
+          "price": 80,
+          "veg": true,
+          "image": "/images/dishes/Black Coffee Nascoffe.webp"
+        },
+        {
+          "ref": "tea-milk-coffee",
+          "name": "Milk coffee",
+          "price": 100,
+          "veg": true,
+          "image": "/images/dishes/Milk Coffee Nascoffe.jpg"
+        },
+        {
+          "ref": "tea-hot-lemon-with-honey-or-ginger",
+          "name": "Hot lemon with honey or ginger",
+          "price": 140,
+          "variants": [
+            {
+              "name": "Honey",
+              "price": 140
+            },
+            {
+              "name": "Ginger",
+              "price": 160
+            }
+          ],
+          "veg": true
+        },
+        {
+          "ref": "tea-cold-coffee",
+          "name": "Cold coffee",
+          "price": 160,
+          "veg": true
+        }
+      ]
+    },
+    {
+      "name": "Fresh juice",
+      "order": 15,
+      "food_group": "beverage",
+      "items": [
+        {
+          "ref": "fresh-juic-carrot-juice",
+          "name": "Carrot juice",
+          "price": 120,
+          "veg": true
+        },
+        {
+          "ref": "fresh-juic-watermelon-juice",
+          "name": "Watermelon juice",
+          "price": 120,
+          "veg": true
+        },
+        {
+          "ref": "fresh-juic-orange-juice",
+          "name": "Orange juice",
+          "price": 200,
+          "veg": true
+        },
+        {
+          "ref": "fresh-juic-papaya-juice",
+          "name": "Papaya juice",
+          "price": 250,
+          "veg": true
+        },
+        {
+          "ref": "fresh-juic-apple-juice",
+          "name": "Apple juice",
+          "price": 270,
+          "veg": true
+        },
+        {
+          "ref": "fresh-juic-mix-juice",
+          "name": "Mix juice",
+          "price": 300,
+          "veg": true
+        },
+        {
+          "ref": "fresh-juic-pomegranate-shake",
+          "name": "Pomegranate shake",
+          "price": 350,
+          "veg": true
+        }
+      ]
+    },
+    {
+      "name": "Lassi",
+      "order": 16,
+      "food_group": "beverage",
+      "items": [
+        {
+          "ref": "lassi-mohi",
+          "name": "Mohi",
+          "price": 60,
+          "veg": true
+        },
+        {
+          "ref": "lassi-plain-lassi",
+          "name": "Plain lassi",
+          "price": 80,
+          "veg": true,
+          "image": "/images/dishes/Sweet Lassi.jpg"
+        },
+        {
+          "ref": "lassi-banana-lassi",
+          "name": "Banana lassi",
+          "price": 120,
+          "veg": true,
+          "image": "/images/dishes/Banana Lassi.jpg"
+        },
+        {
+          "ref": "lassi-mango-lassi",
+          "name": "Mango lassi",
+          "price": 130,
+          "veg": true
+        },
+        {
+          "ref": "lassi-mix-lassi",
+          "name": "Mix lassi",
+          "price": 170,
+          "veg": true
+        }
+      ]
+    },
+    {
+      "name": "Cold drinks",
+      "order": 17,
+      "food_group": "beverage",
+      "items": [
+        {
+          "ref": "cold-drink-mineral-water",
+          "name": "Mineral water",
+          "price": 30,
+          "veg": true,
+          "image": "/images/dishes/mineral water.webp"
+        },
+        {
+          "ref": "cold-drink-dew-sprite-coke-or-fanta",
+          "name": "Dew, Sprite, Coke or Fanta",
+          "price": 80,
+          "veg": true,
+          "image": "/images/dishes/Cold Drinks.jpg"
+        },
+        {
+          "ref": "cold-drink-masala-soda",
+          "name": "Masala soda",
+          "description": "Dew, Sprite, Coke or Fanta",
+          "price": 110,
+          "veg": true
+        },
+        {
+          "ref": "cold-drink-red-bull-red",
+          "name": "Red Bull Red",
+          "price": 150,
+          "veg": true
+        },
+        {
+          "ref": "cold-drink-xtreme-energy-drink",
+          "name": "Xtreme energy drink",
+          "price": 160,
+          "veg": true
+        },
+        {
+          "ref": "cold-drink-red-bull-blue",
+          "name": "Red Bull Blue",
+          "price": 350,
+          "veg": true
+        }
+      ]
+    },
+    {
+      "name": "Beer and cider",
+      "order": 18,
+      "food_group": "beverage",
+      "items": [
+        {
+          "ref": "beer-and-c-gorkha-small",
+          "name": "Gorkha, small",
+          "price": 230,
+          "veg": true
+        },
+        {
+          "ref": "beer-and-c-arna-small",
+          "name": "Arna, small",
+          "price": 230,
+          "veg": true
+        },
+        {
+          "ref": "beer-and-c-tuborg-strong-small",
+          "name": "Tuborg Strong, small",
+          "price": 250,
+          "veg": true
+        },
+        {
+          "ref": "beer-and-c-barahsinghe-small",
+          "name": "Barahsinghe, small",
+          "price": 270,
+          "veg": true
+        },
+        {
+          "ref": "beer-and-c-apple-cider",
+          "name": "Apple cider",
+          "price": 280,
+          "veg": true
+        },
+        {
+          "ref": "beer-and-c-gorkha-large",
+          "name": "Gorkha, large",
+          "price": 460,
+          "veg": true,
+          "image": "/images/dishes/Gorkha-Strong-Beer-Bottle-650ML.jpg"
+        },
+        {
+          "ref": "beer-and-c-arna-large",
+          "name": "Arna, large",
+          "price": 460,
+          "veg": true
+        },
+        {
+          "ref": "beer-and-c-tuborg-strong-large",
+          "name": "Tuborg Strong, large",
+          "price": 500,
+          "veg": true,
+          "image": "/images/dishes/Tuborg-Beer-Bottle-650ML.jpg"
+        },
+        {
+          "ref": "beer-and-c-tuborg-deluxe",
+          "name": "Tuborg Deluxe",
+          "price": 550,
+          "veg": true
+        },
+        {
+          "ref": "beer-and-c-barahsinghe-large",
+          "name": "Barahsinghe, large",
+          "price": 550,
+          "veg": true
+        },
+        {
+          "ref": "beer-and-c-carlsberg",
+          "name": "Carlsberg",
+          "price": 590,
+          "veg": true
+        }
+      ]
+    },
+    {
+      "name": "Spirits",
+      "order": 19,
+      "food_group": "beverage",
+      "items": [
+        {
+          "ref": "spirits-blue-diamond",
+          "name": "Blue Diamond",
+          "price": 410,
+          "veg": true,
+          "variants": [
+            {
+              "name": "180 ml",
+              "price": 410
+            },
+            {
+              "name": "750 ml",
+              "price": 1640
+            }
+          ]
+        },
+        {
+          "ref": "spirits-golden-oak",
+          "name": "Golden Oak",
+          "price": 420,
+          "veg": true,
+          "variants": [
+            {
+              "name": "180 ml",
+              "price": 420
+            },
+            {
+              "name": "750 ml",
+              "price": 1680
+            }
+          ]
+        },
+        {
+          "ref": "spirits-khukuri-rum-white",
+          "name": "Khukuri Rum White",
+          "price": 600,
+          "veg": true,
+          "variants": [
+            {
+              "name": "180 ml",
+              "price": 600
+            },
+            {
+              "name": "750 ml",
+              "price": 2400
+            }
+          ]
+        },
+        {
+          "ref": "spirits-seto-bagh",
+          "name": "Seto Bagh",
+          "price": 650,
+          "veg": true,
+          "variants": [
+            {
+              "name": "180 ml",
+              "price": 650
+            },
+            {
+              "name": "750 ml",
+              "price": 2600
+            }
+          ]
+        },
+        {
+          "ref": "spirits-yeti-vodka",
+          "name": "Yeti Vodka",
+          "price": 670,
+          "veg": true,
+          "variants": [
+            {
+              "name": "180 ml",
+              "price": 670
+            },
+            {
+              "name": "750 ml",
+              "price": 2680
+            }
+          ],
+          "image": "/images/dishes/yeti vodka.png"
+        },
+        {
+          "ref": "spirits-8848-vodka",
+          "name": "8848 Vodka",
+          "price": 690,
+          "veg": true,
+          "variants": [
+            {
+              "name": "180 ml",
+              "price": 690
+            },
+            {
+              "name": "750 ml",
+              "price": 2760
+            }
+          ],
+          "image": "/images/dishes/8848-Vodka-750ML.jpg"
+        },
+        {
+          "ref": "spirits-nude-vodka",
+          "name": "Nude Vodka",
+          "price": 690,
+          "veg": true,
+          "variants": [
+            {
+              "name": "180 ml",
+              "price": 690
+            },
+            {
+              "name": "750 ml",
+              "price": 2760
+            }
+          ]
+        },
+        {
+          "ref": "spirits-ruslan-vodka",
+          "name": "Ruslan Vodka",
+          "price": 690,
+          "veg": true,
+          "variants": [
+            {
+              "name": "180 ml",
+              "price": 690
+            },
+            {
+              "name": "750 ml",
+              "price": 2760
+            }
+          ]
+        },
+        {
+          "ref": "spirits-khukuri-rum-xxx",
+          "name": "Khukuri Rum XXX",
+          "price": 700,
+          "veg": true,
+          "variants": [
+            {
+              "name": "180 ml",
+              "price": 700
+            },
+            {
+              "name": "750 ml",
+              "price": 2800
+            }
+          ]
+        },
+        {
+          "ref": "spirits-khukuri-rum-spice",
+          "name": "Khukuri Rum Spice",
+          "price": 750,
+          "veg": true,
+          "variants": [
+            {
+              "name": "180 ml",
+              "price": 750
+            },
+            {
+              "name": "750 ml",
+              "price": 3000
+            }
+          ]
+        },
+        {
+          "ref": "spirits-signature-green",
+          "name": "Signature Green",
+          "price": 770,
+          "veg": true,
+          "variants": [
+            {
+              "name": "180 ml",
+              "price": 770
+            },
+            {
+              "name": "750 ml",
+              "price": 3080
+            }
+          ]
+        },
+        {
+          "ref": "spirits-signature-red",
+          "name": "Signature Red",
+          "price": 780,
+          "veg": true,
+          "variants": [
+            {
+              "name": "180 ml",
+              "price": 780
+            },
+            {
+              "name": "750 ml",
+              "price": 3120
+            }
+          ]
+        },
+        {
+          "ref": "spirits-gorkha-guns",
+          "name": "Gorkha Guns",
+          "price": 850,
+          "veg": true,
+          "variants": [
+            {
+              "name": "180 ml",
+              "price": 850
+            },
+            {
+              "name": "750 ml",
+              "price": 3400
+            }
+          ]
+        },
+        {
+          "ref": "spirits-old-durbar-red",
+          "name": "Old Durbar Red",
+          "price": 900,
+          "veg": true,
+          "variants": [
+            {
+              "name": "180 ml",
+              "price": 900
+            },
+            {
+              "name": "750 ml",
+              "price": 3600
+            }
+          ]
+        },
+        {
+          "ref": "spirits-himalayan-reserve",
+          "name": "Himalayan Reserve",
+          "price": 1000,
+          "veg": true,
+          "variants": [
+            {
+              "name": "180 ml",
+              "price": 1000
+            },
+            {
+              "name": "750 ml",
+              "price": 4000
+            }
+          ]
+        },
+        {
+          "ref": "spirits-old-durbar-black",
+          "name": "Old Durbar Black",
+          "price": 1150,
+          "veg": true,
+          "variants": [
+            {
+              "name": "180 ml",
+              "price": 1150
+            },
+            {
+              "name": "750 ml",
+              "price": 4600
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hookah",
+      "order": 20,
+      "food_group": "beverage",
+      "items": [
+        {
+          "ref": "hookah-hookah",
+          "name": "Hookah",
+          "price": 380,
+          "veg": true,
+          "image": "/images/dishes/Hookah.jpg"
+        },
+        {
+          "ref": "hookah-cloud-hookah",
+          "name": "Cloud hookah",
+          "price": 450,
+          "veg": true,
+          "image": "/images/dishes/Hookah ambience.jpg"
+        },
+        {
+          "ref": "hookah-extra-coil",
+          "name": "Extra coil",
+          "price": 50,
+          "veg": true
+        },
+        {
+          "ref": "hookah-hookah-refill",
+          "name": "Hookah refill",
+          "price": 250,
+          "veg": true
+        },
+        {
+          "ref": "hookah-cloud-hookah-refill",
+          "name": "Cloud hookah refill",
+          "price": 350,
+          "veg": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chulo Cottage Surkhet</title>
+<meta name="description" content="Chulo Cottage is a garden cafe and kitchen in Birendranagar-8, Surkhet. Coffee, momo, sekuwa and choila under the string lights. Reserve a table on WhatsApp.">
+<meta name="theme-color" content="#2E4A40">
+<meta name="robots" content="index,follow">
+<link rel="icon" href="/img/logo.jpg" type="image/jpeg">
+<link rel="apple-touch-icon" href="/img/logo.jpg">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Chulo Cottage">
+<meta property="og:title" content="Chulo Cottage Surkhet">
+<meta property="og:description" content="A garden cafe and kitchen in Birendranagar, Surkhet. Coffee, momo and a quiet table among the palms.">
+<meta property="og:image" content="/img/courtyard.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"Chulo Cottage","description":"Garden cafe and kitchen in Birendranagar, Surkhet.","telephone":"+977-9841511535","servesCuisine":["Nepali","Cafe"],"priceRange":"Rs 40 - Rs 4,600","address":{"@type":"PostalAddress","streetAddress":"Birendranagar-8","addressLocality":"Surkhet","addressCountry":"NP"},"geo":{"@type":"GeoCoordinates","latitude":28.5908,"longitude":81.6255},"hasMap":"https://maps.google.com/?cid=3417832107308688178","sameAs":["https://www.tiktok.com/@chulocottageskt"],"acceptsReservations":true}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Tiro+Devanagari+Hindi&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap">
+<style>
+/* Layout: soothing garden luxury. A soft pine-green hero strung with champagne bulbs, three arched photos stepping down into an ivory page; eucalyptus and blush bands below. Thin champagne frames everywhere, never heavy boxes. Centred heads, left-aligned body. */
+:root{
+  --pine:#2E4A40;       /* hero and deep bands: soft forest, not black */
+  --pine-2:#365549;
+  --pine-ink:#F3EFE6;
+  --pine-muted:#B9C9BF;
+  --ivory:#F8F4ED;      /* page ground */
+  --eucalyptus:#E3EAE3; /* calm green band */
+  --blush:#F1E6DC;      /* warm band */
+  --ink:#2D3A33;        /* text, a green-grey rather than black */
+  --muted:#6F7C74;
+  --line:#DAD3C4;
+  --champagne:#BF9F6A;  /* hairlines, ornaments */
+  --bulb:#F4CF8E;
+  --sage:#7E9B8B;
+  --wa:#2E8B5E;
+  --display:"Cormorant Garamond","Garamond","Times New Roman",serif;
+  --deva:"Tiro Devanagari Hindi","Noto Serif Devanagari",serif;
+  --body:"DM Sans","Segoe UI",system-ui,-apple-system,sans-serif;
+  --wrap:1160px;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
+body{background:var(--ivory);color:var(--ink);font-family:var(--body);font-weight:300;font-size:1.0625rem;line-height:1.78;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+:focus-visible{outline:1px solid var(--champagne);outline-offset:4px}
+h1,h2,h3{font-family:var(--display);font-weight:500;line-height:1.06;margin:0;text-wrap:balance}
+p{margin:0}
+.wrap{max-width:var(--wrap);margin-inline:auto;padding-inline:clamp(16px,4vw,44px)}
+.soft{filter:saturate(.84) contrast(1.02) brightness(1.02)}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font:400 .9rem/1 var(--body);letter-spacing:.08em;text-decoration:none;padding:17px 30px;border:1px solid var(--champagne);background:var(--champagne);color:#fff;cursor:pointer;transition:background .3s,color .3s,border-color .3s}
+.btn:hover{background:#a98a57;border-color:#a98a57}
+.btn-line{background:transparent;color:inherit;border-color:currentColor}
+.btn-line:hover{background:rgba(191,159,106,.14);border-color:var(--champagne)}
+.btn svg{width:18px;height:18px;flex:none}
+
+.head{text-align:center;max-width:640px;margin:0 auto clamp(44px,6vw,68px)}
+.kick{font-family:var(--deva);font-size:1.35rem;color:var(--champagne);line-height:1}
+.head h2{font-size:clamp(2.6rem,5.4vw,4rem);margin-top:12px}
+.head h2 i{font-weight:400}
+.head p{color:var(--muted);margin-top:14px}
+.orn{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:22px;color:var(--champagne)}
+.orn::before,.orn::after{content:"";width:54px;height:1px;background:currentColor;opacity:.7}
+.orn span{width:6px;height:6px;border:1px solid currentColor;transform:rotate(45deg)}
+
+/* NAV */
+.nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:rgba(46,74,64,.95);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:var(--pine-ink);border-bottom:1px solid rgba(243,239,230,.08)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:10px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{width:40px;height:40px;border-radius:50%;border:1px solid rgba(191,159,106,.6)}
+.brand span{font-family:var(--display);font-size:1.45rem;font-weight:500;letter-spacing:.03em}
+.nav ul{display:flex;gap:32px;list-style:none;margin:0;padding:0}
+.nav ul a{text-decoration:none;color:var(--pine-muted);font-size:.9rem;letter-spacing:.05em;transition:color .2s}
+.nav ul a:hover{color:var(--pine-ink)}
+.nav .btn{padding:11px 18px;font-size:.82rem}
+@media (max-width:900px){.nav ul{display:none}}
+
+/* HERO */
+.hero{background:radial-gradient(70% 60% at 50% 30%,#3A5A4E 0%,var(--pine) 70%);color:var(--pine-ink);position:relative;text-align:center;padding-top:clamp(110px,13vw,160px)}
+.lights{position:absolute;left:0;right:0;top:0;width:100%;height:clamp(70px,9vw,118px);pointer-events:none}
+.lights .wire{fill:none;stroke:rgba(20,32,27,.75);stroke-width:1.3}
+.lights .bulb{fill:var(--bulb)}
+.lights .halo{fill:var(--bulb);opacity:.2}
+@keyframes lightup{from{opacity:.1}to{opacity:1}}
+.lights g.b{animation:lightup .5s ease-out both}
+.hero .deva{font-family:var(--deva);font-size:clamp(2.2rem,4.6vw,3.2rem);color:var(--bulb);line-height:1;text-shadow:0 0 30px rgba(244,207,142,.35)}
+.hero h1{font-size:clamp(3.6rem,10vw,8rem);font-weight:500;letter-spacing:.01em;line-height:.95;margin-top:10px}
+.hero .tag{font-family:var(--display);font-style:italic;font-size:clamp(1.35rem,2.6vw,1.9rem);color:var(--pine-muted);margin-top:14px}
+.hero .lede{max-width:48ch;margin:22px auto 0;color:#D6E0D9}
+.hero-actions{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:36px}
+.hero .btn-line{color:var(--pine-ink);border-color:rgba(243,239,230,.45)}
+.arches{position:relative;display:grid;grid-template-columns:1fr 1.22fr 1fr;gap:clamp(12px,2.4vw,30px);align-items:end;max-width:920px;margin:clamp(56px,7vw,84px) auto 0;z-index:2}
+.arches figure{margin:0;padding:8px;border:1px solid rgba(191,159,106,.7);border-radius:999px 999px 4px 4px;background:var(--ivory)}
+.arches figure div{border-radius:999px 999px 2px 2px;overflow:hidden}
+.arches img{width:100%;height:100%;object-fit:cover}
+.arches figure:nth-child(1) div,.arches figure:nth-child(3) div{aspect-ratio:3/4}
+.arches figure:nth-child(2) div{aspect-ratio:3/4.3}
+@keyframes up{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:none}}
+.arches figure{animation:up 1.1s cubic-bezier(.2,.7,.2,1) both}
+.arches figure:nth-child(2){animation-delay:.12s}.arches figure:nth-child(3){animation-delay:.24s}
+
+@media (max-width:600px){.arches{gap:8px}.arches figure{padding:4px}}
+
+section{padding-block:clamp(76px,10vw,128px)}
+
+/* STORY */
+.story .wrap{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:clamp(36px,7vw,100px);align-items:center}
+.story h2{font-size:clamp(2.5rem,5vw,3.7rem);margin-top:12px}
+.story h2 i{font-weight:400}
+.story .body{color:var(--muted);margin-top:20px;max-width:50ch}
+.story .body + .body{margin-top:14px}
+.story .sig{margin-top:30px;font-family:var(--display);font-style:italic;font-size:1.5rem;color:var(--ink)}
+.story .sig small{display:block;font-family:var(--body);font-style:normal;font-size:.86rem;letter-spacing:.04em;color:var(--muted);margin-top:2px}
+.story figure{margin:0;justify-self:end;width:min(100%,380px);position:relative}
+.story figure::before{content:"";position:absolute;inset:-14px 14px 14px -14px;border:1px solid var(--champagne);opacity:.6}
+.story figure img{position:relative;width:100%;aspect-ratio:4/5.3;object-fit:cover}
+@media (max-width:860px){.story .wrap{grid-template-columns:1fr}.story figure{justify-self:start;margin-left:14px}}
+
+/* SIGNATURES */
+.signatures{background:var(--eucalyptus)}
+.sig-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid rgba(191,159,106,.55);border-bottom:1px solid rgba(191,159,106,.55)}
+.sig-item{padding:36px 26px;text-align:center}
+.sig-item + .sig-item{border-left:1px solid rgba(191,159,106,.55)}
+.sig-item h3{font-size:1.75rem}
+.sig-item p{color:var(--muted);font-size:.93rem;margin-top:8px}
+.sig-item b{display:block;font-family:var(--display);font-weight:500;font-style:italic;color:var(--champagne);font-size:1.4rem;margin-top:14px;font-variant-numeric:lining-nums}
+@media (max-width:900px){.sig-grid{grid-template-columns:1fr 1fr}.sig-item:nth-child(3){border-left:0}.sig-item:nth-child(n+3){border-top:1px solid rgba(191,159,106,.55)}}
+@media (max-width:520px){.sig-grid{grid-template-columns:1fr}.sig-item + .sig-item{border-left:0;border-top:1px solid rgba(191,159,106,.55)}}
+
+/* SPACES */
+.space-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(20px,3vw,44px)}
+.space{margin:0;text-align:center}
+.space .pic{padding:8px;border:1px solid var(--line);border-radius:999px 999px 4px 4px;background:#fff}
+.space .pic div{aspect-ratio:3/4;overflow:hidden;border-radius:999px 999px 2px 2px}
+.space .pic img{width:100%;height:100%;object-fit:cover;transition:transform 1s ease}
+.space:hover .pic img{transform:scale(1.04)}
+.space h3{font-size:1.8rem;margin-top:22px}
+.space p{color:var(--muted);font-size:.96rem;margin:6px auto 0;max-width:32ch}
+@media (max-width:860px){.space-grid{grid-template-columns:1fr;max-width:380px;margin-inline:auto}}
+
+/* MENU */
+.menu{background:var(--blush)}
+.menu-tabs{display:flex;gap:6px;justify-content:center;flex-wrap:wrap;margin-bottom:40px}
+.menu-tabs button{font:400 .88rem/1 var(--body);letter-spacing:.05em;padding:12px 18px;border:1px solid rgba(191,159,106,.5);background:transparent;color:var(--muted);cursor:pointer;transition:all .25s}
+.menu-tabs button:hover{color:var(--ink);border-color:var(--champagne)}
+.menu-tabs button[aria-selected="true"]{background:var(--pine);border-color:var(--pine);color:var(--pine-ink)}
+.menu-card{background:var(--ivory);border:1px solid rgba(191,159,106,.55);outline:1px solid rgba(191,159,106,.35);outline-offset:-12px;padding:clamp(30px,5vw,64px)}
+.menu-panel{columns:2 320px;column-gap:clamp(40px,6vw,88px)}
+.cat{break-inside:avoid;margin-bottom:42px}
+.cat h3{font-size:1.75rem;font-style:italic;font-weight:500;color:var(--pine);padding-bottom:8px;margin-bottom:6px;border-bottom:1px solid var(--line)}
+.row{padding-block:8px}
+.row .line{display:flex;align-items:baseline;gap:10px}
+.row .dots{flex:1;border-bottom:1px dotted #CDBFA6;transform:translateY(-5px);min-width:14px}
+.row .price{font-variant-numeric:tabular-nums;white-space:nowrap;font-weight:400;color:var(--pine)}
+.row .desc{color:var(--muted);font-size:.85rem}
+.tbl{overflow-x:auto}
+.mtable{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.mtable th{font:400 .78rem var(--body);letter-spacing:.06em;color:var(--muted);text-align:right;padding:8px 0 8px 12px;border-bottom:1px solid var(--line)}
+.mtable th:first-child{text-align:left;padding-left:0}
+.mtable td{padding:9px 0 9px 12px;text-align:right;border-bottom:1px dotted #D9CDB8;white-space:nowrap;color:var(--pine)}
+.mtable td:first-child{text-align:left;padding-left:0;color:var(--ink);white-space:normal}
+.mtable tr:last-child td{border-bottom:0}
+.menu-foot{text-align:center;color:var(--muted);font-size:.86rem;margin-top:26px}
+
+/* TEAM */
+.team-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(18px,2.6vw,36px)}
+.member{margin:0;text-align:center}
+.member .ph{position:relative;padding:7px;border:1px solid rgba(191,159,106,.6);border-radius:999px 999px 4px 4px;background:#fff}
+.member .ph div{position:relative;aspect-ratio:3/4;overflow:hidden;border-radius:999px 999px 2px 2px;background:linear-gradient(160deg,var(--eucalyptus),#d5e0d7)}
+.member .ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.member .mono{position:absolute;inset:0;display:grid;place-items:center;font-family:var(--display);font-style:italic;font-size:3.2rem;color:var(--sage)}
+.member h3{font-size:1.6rem;margin-top:18px}
+.member p{color:var(--muted);font-size:.9rem;letter-spacing:.04em}
+.team-note{text-align:center;color:var(--muted);font-size:.88rem;margin-top:32px}
+@media (max-width:900px){.team-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:420px){.team-grid{grid-template-columns:1fr;max-width:280px;margin-inline:auto}}
+
+/* RESERVE */
+.reserve{background:radial-gradient(70% 80% at 20% 30%,#3A5A4E,var(--pine) 70%);color:var(--pine-ink);position:relative;overflow:hidden}
+.reserve .wrap{position:relative;display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:clamp(36px,7vw,96px);align-items:center;padding-top:clamp(36px,5vw,56px)}
+.reserve .kick{color:var(--bulb)}
+.reserve h2{font-size:clamp(2.6rem,5.2vw,3.9rem);margin-top:12px}
+.reserve h2 i{font-weight:400}
+.reserve .body{color:var(--pine-muted);margin-top:18px;max-width:42ch}
+.reserve .wa-line{margin-top:30px;padding-top:24px;border-top:1px solid rgba(243,239,230,.14)}
+.reserve .wa-line span{display:block;font-size:.84rem;letter-spacing:.05em;color:var(--pine-muted)}
+.reserve .wa-line b{font-family:var(--display);font-weight:500;font-size:2rem;user-select:all;font-variant-numeric:lining-nums}
+.form{background:var(--ivory);color:var(--ink);padding:clamp(26px,4vw,46px);outline:1px solid rgba(191,159,106,.6);outline-offset:-10px}
+.form h3{font-size:2rem;font-style:italic;font-weight:500}
+.fields{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:22px}
+.field{display:grid;gap:6px;min-width:0}
+.field.full{grid-column:1/-1}
+.field label{font-size:.8rem;letter-spacing:.06em;color:var(--muted)}
+.field input,.field select,.field textarea{font:inherit;font-weight:400;font-size:1rem;color:var(--ink);background:transparent;border:0;border-bottom:1px solid #CFC4B2;padding:6px 0 10px;width:100%;border-radius:0}
+.field textarea{min-height:64px;resize:vertical}
+.field input:focus,.field select:focus,.field textarea:focus{outline:0;border-bottom-color:var(--champagne)}
+.form .btn{width:100%;margin-top:30px;background:var(--wa);border-color:var(--wa)}
+.form .btn:hover{filter:brightness(1.07)}
+.form .hint{margin-top:12px;font-size:.84rem;color:var(--muted);text-align:center}
+@media (max-width:860px){.reserve .wrap{grid-template-columns:1fr}}
+@media (max-width:460px){.fields{grid-template-columns:1fr}}
+
+/* VISIT */
+.visit{background:var(--eucalyptus)}
+.visit .wrap{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);gap:clamp(32px,6vw,80px);align-items:center}
+.visit h2{font-size:clamp(2.4rem,4.6vw,3.4rem);margin-top:12px}
+.visit dl{margin:26px 0 0;display:grid;gap:18px}
+.visit dt{font-size:.8rem;letter-spacing:.06em;color:var(--muted)}
+.visit dd{margin:0;font-family:var(--display);font-size:1.5rem;font-variant-numeric:lining-nums}
+.visit .links{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.visit .btn-line{color:var(--pine)}
+.map{position:relative;aspect-ratio:16/10;overflow:hidden;outline:1px solid rgba(191,159,106,.6);outline-offset:9px;background:
+  repeating-linear-gradient(32deg,transparent 0 54px,rgba(46,74,64,.06) 54px 55px),
+  repeating-linear-gradient(-58deg,transparent 0 82px,rgba(126,155,139,.14) 82px 85px),
+  var(--ivory)}
+.map iframe{position:absolute;inset:0;width:100%;height:100%;border:0;filter:saturate(.8)}
+.map .pin{position:absolute;left:50%;top:42%;transform:translate(-50%,-50%);display:grid;justify-items:center;gap:10px}
+.map .pin img{width:58px;height:58px;border-radius:50%;border:2px solid #fff;box-shadow:0 8px 20px rgba(46,74,64,.25)}
+.map .pin b{font-family:var(--display);font-weight:500;font-size:1.5rem}
+.map .btn{position:absolute;left:50%;bottom:22px;transform:translateX(-50%);white-space:nowrap}
+@media (max-width:860px){.visit .wrap{grid-template-columns:1fr}}
+
+footer{background:var(--pine);color:var(--pine-muted);padding-block:56px 32px;text-align:center}
+footer img{width:62px;height:62px;border-radius:50%;margin:0 auto;border:1px solid rgba(191,159,106,.6)}
+footer .name{font-family:var(--display);font-size:2rem;color:var(--pine-ink);margin-top:12px}
+footer nav{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 28px;margin-top:18px;font-size:.9rem;letter-spacing:.04em}
+footer nav a{text-decoration:none}
+footer nav a:hover{color:var(--pine-ink)}
+footer small{display:block;margin-top:26px;padding-top:20px;border-top:1px solid rgba(243,239,230,.1);font-size:.82rem}
+
+.wa-float{position:fixed;right:max(18px,env(safe-area-inset-right,0px));bottom:calc(18px + env(safe-area-inset-bottom,0px));z-index:30;display:inline-flex;align-items:center;gap:10px;padding:14px 20px 14px 16px;border-radius:999px;background:var(--wa);color:#fff;text-decoration:none;font:500 .9rem/1 var(--body);box-shadow:0 14px 30px rgba(46,74,64,.35);transition:transform .2s}
+.wa-float:hover{transform:translateY(-2px)}
+.wa-float svg{width:24px;height:24px}
+@media (max-width:560px){.wa-float span{display:none}.wa-float{padding:15px}}
+</style>
+</head>
+<body>
+
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="wa" viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-11.8 7L4 20l1.5-4.1A8 8 0 1 1 20 11.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 8.6c.3 2.6 2.4 4.9 5.2 5.6l1.1-1.2 2 .9-.4 1.6c-3.9.4-8.7-3.4-9.3-7.5l1.6-.5.9 2z" fill="currentColor"/></symbol>
+</svg>
+
+<nav class="nav" aria-label="Main">
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="img/logo.jpg" alt="" width="225" height="225"><span>Chulo Cottage</span></a>
+    <ul>
+      <li><a href="#story">Our story</a></li>
+      <li><a href="#garden">The garden</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#team">Our team</a></li>
+      <li><a href="#visit">Visit</a></li>
+    </ul>
+    <a class="btn" href="#reserve">Reserve a table</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <svg class="lights" id="lights-hero" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true"></svg>
+  <div class="wrap">
+    <p class="deva" lang="ne">चुलो</p>
+    <h1>Chulo Cottage</h1>
+    <p class="tag">A garden cafe &amp; kitchen in Birendranagar</p>
+    <p class="lede">Coffee under the string lights, momo fresh from the kitchen and a quiet table among the palms. Come for one cup and stay for the evening.</p>
+    <div class="hero-actions">
+      <a class="btn" href="#reserve">Reserve a table</a>
+      <a class="btn btn-line" href="#menu">View the menu</a>
+    </div>
+    <div class="arches">
+      <figure><div><img class="soft" src="img/courtyard.jpg" alt="Stone courtyard with umbrellas, rattan chairs and palms" width="415" height="739"></div></figure>
+      <figure><div><img class="soft" src="img/garden-night.jpg" alt="The garden at dusk under string lights" width="335" height="597"></div></figure>
+      <figure><div><img class="soft" src="img/bamboo.jpg" alt="Guests having tea in the bamboo corner" width="415" height="739"></div></figure>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="story after-hero" id="story">
+    <div class="wrap">
+      <div>
+        <p class="kick" lang="ne">हाम्रो कथा</p>
+        <h2>Named for the <i>hearth</i></h2>
+        <p class="body">In a Nepali home, the chulo is the clay hearth where the cooking happens and where everyone gathers. Chulo Cottage was built around the same idea: a warm kitchen, an open garden and a table for everyone.</p>
+        <p class="body">Our brick cottage sits in a leafy courtyard in Birendranagar-8. By day it is a calm spot for coffee and a plate of momo. After dark the lights come on, and friends and families settle in for sekuwa, choila and long conversations.</p>
+        <p class="sig">Shilpa Basnet<small>Founder and Managing Director</small></p>
+      </div>
+      <figure><img class="soft" src="img/cottage.jpg" alt="The brick cottage with its carved balcony and hanging sign, seen through garden leaves" loading="lazy" width="415" height="739"></figure>
+    </div>
+  </section>
+
+  <section class="signatures">
+    <div class="wrap">
+      <div class="head">
+        <p class="kick" lang="ne">विशेष</p>
+        <h2>House <i>favourites</i></h2>
+        <div class="orn" aria-hidden="true"><span></span></div>
+      </div>
+      <div class="sig-grid">
+        <div class="sig-item"><h3>Afghani momo</h3><p>Our creamy house special.</p><b>Rs 250</b></div>
+        <div class="sig-item"><h3>Mutton sekuwa</h3><p>Smoky, spiced and grilled.</p><b>Rs 390</b></div>
+        <div class="sig-item"><h3>Chicken choila</h3><p>Grilled, chilli and mustard oil.</p><b>Rs 300</b></div>
+        <div class="sig-item"><h3>Chulo milk tea</h3><p>The cup everyone starts with.</p><b>Rs 40</b></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="garden">
+    <div class="wrap">
+      <div class="head">
+        <p class="kick" lang="ne">बगैंचा</p>
+        <h2>Three ways to <i>sit</i></h2>
+        <p>Choose your corner of the garden when you reserve.</p>
+        <div class="orn" aria-hidden="true"><span></span></div>
+      </div>
+      <div class="space-grid">
+        <figure class="space"><div class="pic"><div><img class="soft" src="img/courtyard.jpg" alt="Stone terrace with umbrellas, palms and string lights" loading="lazy" width="415" height="739"></div></div>
+          <h3>The courtyard</h3><p>Open-air tables on the stone terrace, shaded by umbrellas and palms.</p></figure>
+        <figure class="space"><div class="pic"><div><img class="soft" src="img/bamboo.jpg" alt="Cane table and chairs against bamboo walls" loading="lazy" width="415" height="739"></div></div>
+          <h3>The bamboo corner</h3><p>Cane chairs and bamboo walls, made for tea for two.</p></figure>
+        <figure class="space"><div class="pic"><div><img class="soft" src="img/gazebo.jpg" alt="Thatched gazebo with draped curtains and cane seating" loading="lazy" width="335" height="432"></div></div>
+          <h3>The thatched gazebo</h3><p>A private hut with curtains and cane seating for small groups.</p></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <div class="wrap">
+      <div class="head">
+        <p class="kick" lang="ne">मेनु</p>
+        <h2>The Chulo <i>menu</i></h2>
+        <p>From the kitchen, the coffee bar and the bar. Prices in Nepali rupees.</p>
+        <div class="orn" aria-hidden="true"><span></span></div>
+      </div>
+      <div class="menu-tabs" role="tablist" aria-label="Menu sections" id="tabs"></div>
+      <div class="menu-card" id="panels"></div>
+      <p class="menu-foot">Prices may change. Alcohol and hookah are served to guests aged 18 and above.</p>
+    </div>
+  </section>
+
+  <section id="team">
+    <div class="wrap">
+      <div class="head">
+        <p class="kick" lang="ne">हाम्रो टोली</p>
+        <h2>The people behind the <i>hearth</i></h2>
+        <p>The faces who cook, brew and welcome you to the garden.</p>
+        <div class="orn" aria-hidden="true"><span></span></div>
+      </div>
+      <div class="team-grid" id="team-grid"></div>
+    </div>
+  </section>
+
+  <section class="reserve" id="reserve">
+    <svg class="lights" id="lights-reserve" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true"></svg>
+    <div class="wrap">
+      <div>
+        <p class="kick" lang="ne">स्वागतम्</p>
+        <h2>Save a table in the <i>garden</i></h2>
+        <p class="body">Choose your date, time and favourite corner, and send it straight to us on WhatsApp. We will reply to confirm.</p>
+        <p class="wa-line"><span>WhatsApp and phone</span><b>+977 984-1511535</b></p>
+      </div>
+      <form class="form" id="form" novalidate>
+        <h3>Reservation request</h3>
+        <div class="fields">
+          <div class="field full"><label for="r-name">Your name</label><input id="r-name" autocomplete="name" placeholder="Full name"></div>
+          <div class="field"><label for="r-date">Date</label><input id="r-date" type="date"></div>
+          <div class="field"><label for="r-time">Time</label><input id="r-time" type="time" value="18:00"></div>
+          <div class="field"><label for="r-guests">Guests</label>
+            <select id="r-guests"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>8</option><option>10</option><option>12+</option></select></div>
+          <div class="field"><label for="r-seat">Seating</label>
+            <select id="r-seat"><option>Any table</option><option>The courtyard</option><option>The bamboo corner</option><option>The thatched gazebo</option></select></div>
+          <div class="field full"><label for="r-note">Occasion or note</label><textarea id="r-note" placeholder="Birthday, family dinner, pre-order momo..."></textarea></div>
+        </div>
+        <a class="btn" id="r-send" href="https://wa.me/9779841511535" target="_blank" rel="noopener"><svg aria-hidden="true"><use href="#wa"/></svg>Send on WhatsApp</a>
+        <p class="hint">Opens WhatsApp with your reservation written out.</p>
+      </form>
+    </div>
+  </section>
+
+  <section class="visit" id="visit">
+    <div class="wrap">
+      <div>
+        <p class="kick" lang="ne">ठेगाना</p>
+        <h2>Find the <i>cottage</i></h2>
+        <dl>
+          <div><dt>Address</dt><dd>Birendranagar-8, Surkhet</dd></div>
+          <div><dt>WhatsApp and phone</dt><dd>+977 984-1511535</dd></div>
+        </dl>
+        <div class="links">
+          <a class="btn" href="https://maps.google.com/?cid=3417832107308688178" target="_blank" rel="noopener">Get directions</a>
+          <a class="btn btn-line" href="https://www.tiktok.com/@chulocottageskt" target="_blank" rel="noopener">TikTok</a>
+        </div>
+      </div>
+      <div class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d875.8245619062308!2d81.62552856965254!3d28.590828198480526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a2850003b55ab1%3A0x2f6e9431720f2332!2sChulo%20Cottage!5e0!3m2!1sen!2snp!4v1793171144335!5m2!1sen!2snp" title="Chulo Cottage on Google Maps" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe></div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <img src="img/logo.jpg" alt="Chulo Cottage logo" width="225" height="225">
+    <p class="name">Chulo Cottage</p>
+    <nav aria-label="Footer">
+      <a href="#story">Our story</a><a href="#garden">The garden</a><a href="#menu">Menu</a><a href="#team">Our team</a><a href="#reserve">Reserve</a>
+      <a href="https://www.tiktok.com/@chulocottageskt" target="_blank" rel="noopener">TikTok</a>
+    </nav>
+    <small>Chulo Cottage, Birendranagar-8, Surkhet. WhatsApp +977 984-1511535.</small>
+  </div>
+</footer>
+
+<a class="wa-float wa-link" href="https://wa.me/9779841511535" target="_blank" rel="noopener" aria-label="Chat with Chulo Cottage on WhatsApp"><svg aria-hidden="true"><use href="#wa"/></svg><span>WhatsApp us</span></a>
+
+<script>
+var WHATSAPP = "9779841511535";
+
+/* TEAM: to add a photo, put the file in the img folder with the name shown in "photo".
+   Edit names and roles here. Cards without a photo show initials. */
+var STAFF = [
+  {name:"Shilpa Basnet", role:"Founder & Managing Director", photo:"img/staff-1.jpg"},
+  {name:"Head Chef",     role:"The kitchen",                 photo:"img/staff-2.jpg"},
+  {name:"Barista",       role:"The coffee bar",              photo:"img/staff-3.jpg"},
+  {name:"Guest Host",    role:"The garden",                  photo:"img/staff-4.jpg"}
+];
+
+var MENU = [
+ {id:"momo",label:"Mo:mo",cats:[
+   {title:"Mo:mo",t:{cols:["Chicken","Mutton","Paneer"],rows:[
+     ["Steam",150,200,160],["Fried",160,220,180],["Chilli",250,280,200],["C. momo",230,270,190],
+     ["Kothey",170,220,180],["Jhol",170,220,180],["Hot jhol",190,240,190],["Sadeko",200,240,200]]}},
+   {title:"House special",items:[["Afghani momo",250]]}
+ ]},
+ {id:"grill",label:"Chicken & mutton",cats:[
+   {title:"Chicken",items:[["Chicken sekuwa",350],["Chicken choila",300],["Chicken lollipop",250],["Chicken chilli",285],["Chicken boil",300],["Chicken boil sadeko",320],["Chicken sadeko",280],["Chicken nuggets",300],["Chicken 65",320],["Chicken pakoda",300],["Chicken chatpate",180],["Crispy chicken",300],["Hot wings",320],["Kurkure chicken",350],["KFC-style chicken",350],["Chicken sausage",180],["Sausage chilli",450]]},
+   {title:"Mutton",items:[["Mutton sekuwa",390],["Mutton choila",380],["Mutton kan-gidi-jibro",350],["Bhutan",250],["Mutton tass",390],["Mutton hekulla",490]]}
+ ]},
+ {id:"veg",label:"Veg snacks",cats:[
+   {title:"Veg snacks",items:[["French fries",120],["Peanut sadeko",140],["Corn salt and pepper",200],["Bhatmas sadeko",120],["Hot potato chilli",140],["Paneer chilli",290],["Aloo chop",90],["Aloo paratha",120],["Mustang aloo",180],["Paneer pakoda",300],["Chatpate",100],["Sadeko chauchau",150],["Onion rings",150],["Veg boil",200],["Lasun fry",150],["Pakoda",80],["Laping, dry",120],["Laping, jhol",150],["Safale",150]]},
+   {title:"Salad",items:[["Nepali salad",150],["Fruit salad",200],["Diamond salad",250]]}
+ ]},
+ {id:"meals",label:"Rice, noodles & curry",cats:[
+   {title:"Rice and biryani",items:[["Veg fried rice",170],["Egg fried rice",200],["Chicken fried rice",250],["Paneer fried rice",300],["Mix fried rice",300],["Veg biryani",270],["Egg biryani",290],["Chicken biryani",350],["Paneer biryani",490],["Mutton biryani",500]]},
+   {title:"Curry and roti",items:[["Veg curry",230],["Egg curry",260],["Chicken curry",300],["Paneer curry",350],["Mutton curry",350],["Plain roti",20],["Butter roti",30]]},
+   {title:"Noodles",items:[["Veg chowmein",110],["Egg chowmein",130],["Chicken chowmein",150],["Mix chowmein",250],["Keema noodles",250]]},
+   {title:"Soup and thukpa",items:[["Veg manchow soup",150],["Hot and sour soup",180],["Chicken manchow soup",180],["Chicken hot and sour soup",230],["Veg thukpa",170],["Chicken thukpa",200]]}
+ ]},
+ {id:"light",label:"Light bites",cats:[
+   {title:"Burgers and sandwiches",items:[["Veg burger",150],["Chicken burger",210],["Plain sandwich",120],["Bread omelette",120],["Boiled egg",100],["Plain omelette",100]]},
+   {title:"Kathi rolls",items:[["Veg kathi roll",170],["Egg kathi roll",200],["Chicken kathi roll",250],["Paneer kathi roll",300],["Chicken spring roll",220]]}
+ ]},
+ {id:"coffee",label:"Coffee & tea",cats:[
+   {title:"Coffee",items:[["Espresso",80],["Americano, single",130],["Americano, double",150],["Espresso con panna",150],["Doppio",150],["Caffè lungo",155],["Cappuccino",170],["Doppio with honey",170],["Caffè latte",200],["Flavoured latte|Honey, vanilla or caramel",200],["Affogato",220],["Mojito",260]]},
+   {title:"Tea",items:[["Black tea",25],["Lemon tea",30],["Chulo milk tea",40],["Hot lemon",50],["Black coffee",80],["Milk coffee",100],["Hot lemon with honey or ginger","140 / 160"],["Cold coffee",160]]}
+ ]},
+ {id:"juice",label:"Juice & lassi",cats:[
+   {title:"Fresh juice",items:[["Carrot juice",120],["Watermelon juice",120],["Orange juice",200],["Papaya juice",250],["Apple juice",270],["Mix juice",300],["Pomegranate shake",350]]},
+   {title:"Lassi",items:[["Mohi",60],["Plain lassi",80],["Banana lassi",120],["Mango lassi",130],["Mix lassi",170]]},
+   {title:"Cold drinks",items:[["Mineral water",30],["Dew, Sprite, Coke or Fanta",80],["Masala soda|Dew, Sprite, Coke or Fanta",110],["Red Bull Red",150],["Xtreme energy drink",160],["Red Bull Blue",350]]}
+ ]},
+ {id:"bar",label:"Bar & hookah",cats:[
+   {title:"Beer and cider",items:[["Gorkha, small",230],["Arna, small",230],["Tuborg Strong, small",250],["Barahsinghe, small",270],["Apple cider",280],["Gorkha, large",460],["Arna, large",460],["Tuborg Strong, large",500],["Tuborg Deluxe",550],["Barahsinghe, large",550],["Carlsberg",590]]},
+   {title:"Spirits",t:{cols:["180 ml","750 ml"],rows:[
+     ["Blue Diamond",410,1640],["Golden Oak",420,1680],["Khukuri Rum White",600,2400],["Seto Bagh",650,2600],["Yeti Vodka",670,2680],["8848 Vodka",690,2760],["Nude Vodka",690,2760],["Ruslan Vodka",690,2760],["Khukuri Rum XXX",700,2800],["Khukuri Rum Spice",750,3000],["Signature Green",770,3080],["Signature Red",780,3120],["Gorkha Guns",850,3400],["Old Durbar Red",900,3600],["Himalayan Reserve",1000,4000],["Old Durbar Black",1150,4600]]}},
+   {title:"Hookah",items:[["Hookah",380],["Cloud hookah",450],["Extra coil",50],["Hookah refill",250],["Cloud hookah refill",350]]}
+ ]}
+];
+
+(function(){
+  var $=function(id){return document.getElementById(id);};
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+  function rs(n){return typeof n==="number"?n.toLocaleString("en-IN"):esc(n);}
+
+  function lights(svg,count,delay){
+    var NS="http://www.w3.org/2000/svg", wire=document.createElementNS(NS,"path");
+    wire.setAttribute("d","M-10 8 Q150 78 300 18 Q450 78 600 14 Q750 78 900 18 Q1050 78 1210 8");
+    wire.setAttribute("class","wire"); svg.appendChild(wire);
+    var L=wire.getTotalLength();
+    for(var i=1;i<count;i++){
+      var p=wire.getPointAtLength(L*i/count), g=document.createElementNS(NS,"g");
+      g.setAttribute("class","b"); g.style.animationDelay=(delay+i*0.05)+"s";
+      g.innerHTML='<line x1="'+p.x+'" y1="'+p.y+'" x2="'+p.x+'" y2="'+(p.y+9)+'" stroke="rgba(20,32,27,.75)" stroke-width="1.1"/><ellipse class="halo" cx="'+p.x+'" cy="'+(p.y+15)+'" rx="11" ry="11"/><ellipse class="bulb" cx="'+p.x+'" cy="'+(p.y+15)+'" rx="3.3" ry="4.5"/>';
+      svg.appendChild(g);
+    }
+  }
+  try{lights($("lights-hero"),34,.2);lights($("lights-reserve"),34,0);}catch(e){}
+
+  /* team */
+  var tg=$("team-grid");
+  STAFF.forEach(function(s){
+    var ini=s.name.split(/\s+/).map(function(w){return w[0]||"";}).join("").slice(0,2).toUpperCase();
+    var card=document.createElement("figure"); card.className="member";
+    card.innerHTML='<div class="ph"><div><span class="mono" aria-hidden="true">'+esc(ini)+'</span><img alt="'+esc(s.name)+'" loading="lazy"></div></div><h3>'+esc(s.name)+'</h3><p>'+esc(s.role)+'</p>';
+    var img=card.querySelector("img");
+    img.addEventListener("error",function(){img.remove();});
+    img.src=s.photo;
+    tg.appendChild(card);
+  });
+
+  /* menu */
+  function row(it){var p=String(it[0]).split("|");return '<div class="row"><div class="line"><span>'+esc(p[0])+'</span><span class="dots"></span><span class="price">'+rs(it[1])+'</span></div>'+(p[1]?'<p class="desc">'+esc(p[1])+'</p>':'')+'</div>';}
+  function table(t){var h='<div class="tbl"><table class="mtable"><thead><tr><th scope="col">Item</th>'+t.cols.map(function(c){return '<th scope="col">'+esc(c)+'</th>';}).join("")+'</tr></thead><tbody>';t.rows.forEach(function(r){h+='<tr><td>'+esc(r[0])+'</td>'+r.slice(1).map(function(v){return '<td>'+rs(v)+'</td>';}).join("")+'</tr>';});return h+'</tbody></table></div>';}
+  function cat(c){return '<div class="cat"><h3>'+esc(c.title)+'</h3>'+(c.t?table(c.t):c.items.map(row).join(""))+'</div>';}
+  var tabs=$("tabs"),panels=$("panels");
+  MENU.forEach(function(s,i){
+    tabs.insertAdjacentHTML("beforeend",'<button role="tab" id="t-'+s.id+'" aria-controls="p-'+s.id+'" aria-selected="'+(i===0)+'" tabindex="'+(i?-1:0)+'">'+esc(s.label)+'</button>');
+    panels.insertAdjacentHTML("beforeend",'<div class="menu-panel" role="tabpanel" id="p-'+s.id+'" aria-labelledby="t-'+s.id+'"'+(i?' hidden':'')+'>'+s.cats.map(cat).join("")+'</div>');
+  });
+  var tb=[].slice.call(tabs.querySelectorAll('[role="tab"]'));
+  function select(t){tb.forEach(function(x){var on=x===t;x.setAttribute("aria-selected",on);x.tabIndex=on?0:-1;$(x.getAttribute("aria-controls")).hidden=!on;});}
+  tb.forEach(function(t,i){t.addEventListener("click",function(){select(t);});t.addEventListener("keydown",function(e){var n=e.key==="ArrowRight"?1:e.key==="ArrowLeft"?-1:0;if(!n)return;var x=tb[(i+n+tb.length)%tb.length];x.focus();select(x);});});
+
+  /* whatsapp */
+  document.querySelectorAll(".wa-link").forEach(function(a){a.href="https://wa.me/"+WHATSAPP+"?text="+encodeURIComponent("Namaste Chulo Cottage! I have a question.");});
+  var date=$("r-date");
+  try{var d=new Date();d.setMinutes(d.getMinutes()-d.getTimezoneOffset());date.value=d.toISOString().slice(0,10);date.min=date.value;}catch(e){}
+  function fmtTime(v){if(!v)return "";var p=v.split(":"),h=+p[0];return ((h%12)||12)+":"+p[1]+(h<12?" AM":" PM");}
+  function build(){
+    var l=["Namaste Chulo Cottage! I'd like to reserve a table."];
+    if($("r-name").value.trim()) l.push("Name: "+$("r-name").value.trim());
+    if(date.value) l.push("Date: "+date.value);
+    if($("r-time").value) l.push("Time: "+fmtTime($("r-time").value));
+    l.push("Guests: "+$("r-guests").value);
+    l.push("Seating: "+$("r-seat").value);
+    if($("r-note").value.trim()) l.push("Note: "+$("r-note").value.trim());
+    $("r-send").href="https://wa.me/"+WHATSAPP+"?text="+encodeURIComponent(l.join("\n"));
+  }
+  var form=$("form");
+  form.addEventListener("input",build);form.addEventListener("change",build);
+  form.addEventListener("submit",function(e){e.preventDefault();});
+  build();
+})();
+</script>
+
+</body>
+</html>

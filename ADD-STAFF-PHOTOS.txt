@@ -1,0 +1,13 @@
+How to add staff photos to the Chulo Cottage website
+
+1. Save each photo as a JPG (a portrait/upright photo looks best).
+2. Name them exactly:
+     staff-1.jpg   Shilpa Basnet, Founder & Managing Director
+     staff-2.jpg   Head Chef
+     staff-3.jpg   Barista
+     staff-4.jpg   Guest Host
+3. Put them in the "img" folder next to index.html and upload.
+
+To change names or roles, open index.html, search for "var STAFF" and edit the
+name and role text. Add or remove lines to show more or fewer people
+(for example staff-5.jpg). Until a photo is added, the card shows the person's initials.
